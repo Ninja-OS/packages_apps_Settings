@@ -471,7 +471,7 @@ public class ManageApplications extends InstrumentedPreferenceFragment
             case LIST_TYPE_MOVIES:
                 return mSortOrder == R.id.sort_order_alpha;
             default:
-                return false;
+                return true;
         }
     }
 
