@@ -3293,5 +3293,18 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <activity android:name=".Settings$NinjaShadowHubActivity"
+                  android:label="@string/ninja_shadowhub_title"
+                  android:icon="@drawable/ic_settings_ninja">
+            <intent-filter android:priority="12">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.ninja.shadowhub.NinjaShadowHub"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/ninja_shadowhub_summary"/>
+        </activity>
     </application>
 </manifest>

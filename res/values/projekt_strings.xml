@@ -24,4 +24,8 @@
    <string name="menu_show_substratum">Show overlays</string>
    <string name="menu_hide_substratum">Hide overlays</string>
 
+    <!-- Ninja ShadowHub -->
+    <string name="ninja_shadowhub_title">Персонализация</string>
+    <string name="ninja_shadowhub_summary">Дополнительные настройки</string>
+
 </resources>

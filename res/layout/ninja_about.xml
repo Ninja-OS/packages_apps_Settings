@@ -24,4 +24,8 @@
             android:src="@drawable/ninja_about"
         />
 
+    <!-- Ninja ShadowHub -->
+    <string name="ninja_shadowhub_title">Fight Under Shadow!</string>
+    <string name="ninja_shadowhub_summary">Additional settings</string>
+
 </LinearLayout>
