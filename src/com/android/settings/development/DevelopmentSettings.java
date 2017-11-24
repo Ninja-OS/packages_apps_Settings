@@ -265,7 +265,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private boolean mHaveDebugSettings;
     private boolean mDontPokeProperties;
 
-    private boolean mOtaDisabledOnce = false;
+    //private boolean mOtaDisabledOnce = false;
 
     private SwitchPreference mEnableAdb;
     private SwitchPreference mAdbNotify;
@@ -831,7 +831,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateShowNotificationChannelWarningsOptions();
         mVerifyAppsOverUsbController.updatePreference();
         //updateOtaDisableAutomaticUpdateOptions();
-        updateBugreportOptions();
+        //updateBugreportOptions();
         updateForceRtlOptions();
         updateLogdSizeValues();
         updateLogpersistValues();
@@ -1035,7 +1035,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     //    updateSwitchPreference(mOtaDisableAutomaticUpdate, Settings.Global.getInt(
     //            getActivity().getContentResolver(),
     //            Settings.Global.OTA_DISABLE_AUTOMATIC_UPDATE, 0) != 1);
-    //}
+    }
 
     //private void writeOtaDisableAutomaticUpdateOptions() {
         // We use the "disabled status" in code, but show the opposite text
