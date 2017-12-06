@@ -586,6 +586,11 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mColorTemperaturePreference = null;
         }
 
+        if (Settings.Secure.getInt(getContext().getContentResolver(),
+                Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) == 1) {
+            Settings.Secure.putInt(getContext().getContentResolver(), Settings.Secure.BUGREPORT_IN_POWER_MENU, 0);
+        }
+
         addDashboardCategoryPreferences();
     }
 
@@ -824,7 +829,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateShowAllANRsOptions();
         updateShowNotificationChannelWarningsOptions();
         mVerifyAppsOverUsbController.updatePreference();
-        updateBugreportOptions();
         updateForceRtlOptions();
         updateLogdSizeValues();
         updateLogpersistValues();
