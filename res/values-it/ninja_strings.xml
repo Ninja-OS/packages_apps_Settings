@@ -42,5 +42,4 @@
     <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
     <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
 
-    <string name="notif_sound_screen_on_title">Riproduci suono e vibrazione quando lo schermo è acceso</string>
 </resources>
