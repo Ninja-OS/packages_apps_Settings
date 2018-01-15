@@ -42,4 +42,5 @@
     <string name="app_notifications_info_desc">Tappa sulle singole categorie di cui sopra per configurare il colore del led e altre opzioni</string>
     <string name="show_light_on_zen_title">Lampeggia durante Non Disturbare</string>
 
+    <string name="wireless_charging_sounds_title">Suoni caricamento wireless</string>
 </resources>
