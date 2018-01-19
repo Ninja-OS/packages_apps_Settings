@@ -22,11 +22,6 @@ import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 
 import com.android.settings.R;
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.core.AbstractPreferenceController;
-
-public class ROMVersionPreferenceController extends AbstractPreferenceController
-        implements PreferenceControllerMixin {
 import com.android.settings.core.PreferenceController;
 
 public class ROMVersionPreferenceController extends PreferenceController {
