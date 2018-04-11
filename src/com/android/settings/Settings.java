@@ -193,7 +193,6 @@ public class Settings extends SettingsActivity {
     public static class SupportDashboardActivity extends SettingsActivity {}
     public static class NinjaShadowHubActivity extends SettingsActivity {}
 
-    // NINJA Additions.
+    // Abc Additions.
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
-    public static class NinjaShadowHubActivity extends SettingsActivity {}
 }
