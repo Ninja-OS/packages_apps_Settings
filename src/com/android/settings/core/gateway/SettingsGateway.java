@@ -132,7 +132,7 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.ninja.shadowhub.NinjaShadowhub;
+import com.ninja.shadowhub.NinjaShadowHub;
 
 public class SettingsGateway {
 
