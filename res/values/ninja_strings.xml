@@ -72,5 +72,8 @@
     <string name="alert_on_charged_level_90">"90%"</string>
     <string name="alert_on_charged_level_99">"99%"</string>
 
+    <string name="ninja_shadowhub_activity">Advanced</string>
+    <string name="ninja_shadowhub_activity_summary">Additional ROM settings</string>
+
 </resources>
 
